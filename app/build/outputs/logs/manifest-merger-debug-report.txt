@@ -1,0 +1,265 @@
+-- Merging decision tree log ---
+manifest
+ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:2:1-111:12
+INJECTED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:2:1-111:12
+INJECTED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:2:1-111:12
+INJECTED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:2:1-111:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\gopio\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\cd00a3fe691bedf8619416c2871ce104\AndroidManifest.xml:2:1-11:12
+MERGED from [com.mcxiaoke.volley:library-aar:1.0.1] C:\Users\gopio\.gradle\caches\transforms-1\files-1.1\library-aar-1.0.1.aar\3739d932b8dacc019d55fbbe954b6422\AndroidManifest.xml:1:70-7:12
+INJECTED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:2:1-111:12
+INJECTED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:2:1-111:12
+INJECTED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:2:1-111:12
+	package
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:4:5-38
+		INJECTED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml
+		INJECTED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:7:5-30
+		INJECTED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml
+		INJECTED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:6:5-28
+		INJECTED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml
+		INJECTED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml
+	android:installLocation
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:5:5-35
+uses-permission#android.permission.INTERNET
+ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:9:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:10:22-76
+uses-permission#android.permission.CALL_PHONE
+ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:11:5-69
+	android:name
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:11:22-66
+uses-permission#android.permission.SEND_SMS
+ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:12:22-64
+application
+ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:14:5-109:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\gopio\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\cd00a3fe691bedf8619416c2871ce104\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\gopio\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\cd00a3fe691bedf8619416c2871ce104\AndroidManifest.xml:9:5-20
+MERGED from [com.mcxiaoke.volley:library-aar:1.0.1] C:\Users\gopio\.gradle\caches\transforms-1\files-1.1\library-aar-1.0.1.aar\3739d932b8dacc019d55fbbe954b6422\AndroidManifest.xml:5:5-19
+MERGED from [com.mcxiaoke.volley:library-aar:1.0.1] C:\Users\gopio\.gradle\caches\transforms-1\files-1.1\library-aar-1.0.1.aar\3739d932b8dacc019d55fbbe954b6422\AndroidManifest.xml:5:5-19
+	android:supportsRtl
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:19:9-35
+	android:label
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:18:9-41
+	android:icon
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:17:9-37
+	android:allowBackup
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:16:9-35
+	android:theme
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:20:9-40
+	android:name
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:15:9-56
+activity#login.calender.activity.LoginActivity
+ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:21:9-31:20
+	android:label
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:23:13-45
+	android:launchMode
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:24:13-43
+	android:windowSoftInputMode
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:25:13-52
+	android:name
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:22:13-65
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:26:13-30:29
+action#android.intent.action.MAIN
+ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:27:17-69
+	android:name
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:27:25-66
+category#android.intent.category.LAUNCHER
+ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:29:27-74
+activity#login.calender.activity.RegisterActivity
+ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:32:9-36:55
+	android:label
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:34:13-45
+	android:launchMode
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:35:13-43
+	android:windowSoftInputMode
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:36:13-52
+	android:name
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:33:13-68
+activity#login.calender.activity.MainActivity4
+ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:37:9-40:46
+	android:label
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:39:13-45
+	android:launchMode
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:40:13-43
+	android:name
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:38:13-65
+activity#com.example.keccontacts.Loadd
+ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:41:9-44:61
+	android:screenOrientation
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:44:13-49
+	android:label
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:43:13-45
+	android:name
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:42:13-34
+activity#com.example.keccontacts.SingleItemView
+ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:45:9-48:52
+	android:screenOrientation
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:48:13-49
+	android:label
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:47:13-45
+	android:name
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:46:13-43
+activity#com.example.keccontacts.MainActivity
+ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:49:9-52:52
+	android:screenOrientation
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:52:13-49
+	android:label
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:51:13-45
+	android:name
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:50:13-41
+activity#com.example.keccontacts.UserItemView
+ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:53:9-56:52
+	android:screenOrientation
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:56:13-49
+	android:label
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:55:13-45
+	android:name
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:54:13-41
+activity#com.example.keccontacts.UserEdit
+ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:57:9-60:52
+	android:screenOrientation
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:60:13-49
+	android:label
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:59:13-45
+	android:name
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:58:13-37
+activity#com.example.keccontacts.MultiSelect
+ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:61:9-64:52
+	android:screenOrientation
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:64:13-49
+	android:label
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:63:13-45
+	android:name
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:62:13-40
+activity#com.example.keccontacts.MultiSelect3
+ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:65:9-68:52
+	android:screenOrientation
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:68:13-49
+	android:label
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:67:13-45
+	android:name
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:66:13-41
+service#com.example.keccontacts.UpdateData
+ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:70:9-72:38
+	android:enabled
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:72:13-35
+	android:name
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:71:13-39
+activity#com.example.keccontacts.Department
+ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:74:9-77:52
+	android:screenOrientation
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:77:13-49
+	android:label
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:76:13-45
+	android:name
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:75:13-39
+activity#com.example.keccontacts.Deptlist
+ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:78:9-81:52
+	android:screenOrientation
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:81:13-49
+	android:label
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:80:13-45
+	android:name
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:79:13-37
+activity#com.example.keccontacts.Cpass
+ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:82:9-85:52
+	android:screenOrientation
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:85:13-49
+	android:label
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:84:13-45
+	android:name
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:83:13-34
+activity#com.example.keccontacts.Home
+ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:86:9-89:52
+	android:screenOrientation
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:89:13-49
+	android:label
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:88:13-45
+	android:name
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:87:13-33
+activity#com.example.keccontacts.About
+ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:90:9-93:52
+	android:screenOrientation
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:93:13-49
+	android:label
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:92:13-45
+	android:name
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:91:13-34
+activity#com.example.keccontacts.Office
+ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:94:9-97:52
+	android:screenOrientation
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:97:13-49
+	android:label
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:96:13-45
+	android:name
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:95:13-35
+activity#com.example.keccontacts.SingleOffice
+ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:98:9-101:52
+	android:screenOrientation
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:101:13-49
+	android:label
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:100:13-45
+	android:name
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:99:13-41
+activity#kec.calender.MainActivity2
+ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:102:9-63
+	android:name
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:102:19-60
+activity#kec.calender.SearchActivity
+ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:103:9-64
+	android:name
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:103:19-61
+activity#edit.calender.MainActivity3
+ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:104:9-64
+	android:name
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:104:19-61
+activity#edit.calender.ShowAllStudentsActivity
+ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:105:9-74
+	android:name
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:105:19-71
+activity#edit.calender.ShowSingleRecordActivity
+ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:106:9-75
+	android:name
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:106:19-72
+activity#edit.calender.UpdateActivity
+ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:107:9-65
+	android:name
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:107:19-62
+activity#login.calender.activity.SelectionActivity
+ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:108:9-87
+	android:name
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:108:19-75
+uses-sdk
+INJECTED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml
+INJECTED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\gopio\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\cd00a3fe691bedf8619416c2871ce104\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\gopio\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\cd00a3fe691bedf8619416c2871ce104\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mcxiaoke.volley:library-aar:1.0.1] C:\Users\gopio\.gradle\caches\transforms-1\files-1.1\library-aar-1.0.1.aar\3739d932b8dacc019d55fbbe954b6422\AndroidManifest.xml:3:5-72
+MERGED from [com.mcxiaoke.volley:library-aar:1.0.1] C:\Users\gopio\.gradle\caches\transforms-1\files-1.1\library-aar-1.0.1.aar\3739d932b8dacc019d55fbbe954b6422\AndroidManifest.xml:3:5-72
+INJECTED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml
+INJECTED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml
+		INJECTED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml
+		INJECTED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml

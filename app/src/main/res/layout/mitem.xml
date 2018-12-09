@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <CheckBox
+        android:id="@+id/cbBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical" >
+
+    </CheckBox>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="0.57"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvDescr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text=""
+            android:textColor="#0000FF"
+            android:textSize="18sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textColor="#0000FF"
+            android:text="" >
+        </TextView>
+         <TextView
+            android:id="@+id/tvmobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textColor="#0000FF"
+            android:text="" >
+        </TextView>
+         <TextView
+            android:id="@+id/tvmo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textColor="#0000FF"
+            android:text="" >
+        </TextView>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvdept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="3dp"
+        android:gravity="right"
+        android:textColor="#0000FF"
+        android:layout_weight="0.28"
+        android:textSize="18sp" />
+       
+</LinearLayout>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:background="@drawable/kcl4"
+    android:layout_height="fill_parent" >
+    
+    
+    
+    <TextView
+        android:id="@+id/ranklabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0000FF"
+        android:textSize="20sp" 
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:text="Staff id : " />
+ 
+    <TextView
+        android:id="@+id/names"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0000FF"
+        android:textSize="20sp" 
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/ranklabel" />
+ 
+    <TextView
+        android:id="@+id/countrylabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ranklabel"
+        android:layout_marginLeft="15dp"
+        android:textColor="#0000FF"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp" 
+        android:text="@string/countrylabel" />
+ 
+    <TextView
+        android:id="@+id/mails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0000FF"
+        android:textSize="20sp" 
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/names"
+        android:layout_toRightOf="@+id/countrylabel" />
+ 
+    <TextView
+        android:id="@+id/populationlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/countrylabel"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:textColor="#0000FF"
+        android:textSize="20sp" 
+        android:text="@string/populationlabel" />
+ 
+    <TextView
+        android:id="@+id/mobiles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mails"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp" 
+        android:textColor="#0000FF"
+        android:layout_toRightOf="@+id/populationlabel" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:textColor="#0000FF"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp" 
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/populationlabel"
+        android:text="Mobile No. :" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:textColor="#0000FF"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_alignRight="@+id/textView2"
+        android:textSize="20sp" 
+        android:layout_below="@+id/textView2"
+        android:text="Mail id :" />
+
+    <TextView
+        android:id="@+id/mob2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView1"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/populationlabel"
+        android:textColor="#0000FF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/maill2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignParentRight="true"
+        android:textColor="#0000FF"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="20sp" 
+        android:layout_toRightOf="@+id/ranklabel" />
+
+ <LinearLayout
+     android:id="@+id/linearLayout1"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_below="@+id/textView1"
+     android:layout_gravity="center_vertical"
+     android:orientation="horizontal" >
+ <TextView
+        android:id="@+id/mmm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            
+        android:textColor="#0000FF"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="90dp"
+        android:textSize="20sp" 
+         />
+     <Button
+         android:id="@+id/edit1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="30dp"
+         android:text="EDIT PROFILE"
+         android:textColor="#0000FF"
+         android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/mm2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:text="[Edit only Mobile No. and Mail]"
+        android:textColor="#0000FF"
+        android:textSize="20sp" />
+    
+ </RelativeLayout>

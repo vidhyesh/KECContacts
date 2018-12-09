@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kcl4"
+    android:orientation="vertical" >
+
+     <ScrollView
+         android:id="@+id/scrollView2"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+    
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/names"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_weight="0.33"
+                android:text="About this App:"
+                android:textColor="#0000FF"
+                android:textSize="18sp"
+                android:textStyle="bold" >
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/msg1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_margin="5dp"
+                android:layout_weight="0.31"
+                android:text="List all staff contact info."
+                android:textColor="#0033FF"
+                android:textSize="15sp"
+                android:textStyle="italic" />
+            <TextView
+                android:id="@+id/msg2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_margin="5dp"
+                android:layout_weight="0.31"
+                android:text="Send Mail, SMS and Make a call from this App."
+                android:textColor="#0033FF"
+                android:textSize="15sp"
+                android:textStyle="italic" />
+            <TextView
+                android:id="@+id/msg3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_margin="5dp"
+                android:layout_weight="0.31"
+                android:text="Search the contacts by giving depart name, staff name, mobile number or mail id."
+                android:textColor="#0033FF"
+                android:textSize="15sp"
+                android:textStyle="italic" />
+                              
+            
+        </LinearLayout>
+
+     
+
+</LinearLayout></ScrollView>
+        
+</LinearLayout>

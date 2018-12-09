@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "A:\\newfinal\\kecwitherror07112018\\KECContacts1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "map": [
+                {
+                    "source": "A:\\newfinal\\kecwitherror07112018\\KECContacts1\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "182",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "316"
+                    },
+                    "to": {
+                        "startLines": "18",
+                        "startColumns": "4",
+                        "startOffsets": "803",
+                        "endLines": "20",
+                        "endColumns": "12",
+                        "endOffsets": "935"
+                    }
+                },
+                {
+                    "source": "A:\\newfinal\\kecwitherror07112018\\KECContacts1\\app\\src\\main\\res\\values-v11\\colors.xml",
+                    "from": {
+                        "startLines": "5,7,6,14,15,17,4,2,3,9,10,11,12,13,16,8",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "199,288,242,622,666,756,153,55,102,370,416,467,516,568,713,330",
+                        "endColumns": "42,41,45,43,46,46,45,46,50,45,50,48,51,53,42,39",
+                        "endOffsets": "237,325,283,661,708,798,194,97,148,411,462,511,563,617,751,365"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,98,140,186,230,277,324,370,417,468,514,565,614,666,720,763",
+                        "endColumns": "42,41,45,43,46,46,45,46,50,45,50,48,51,53,42,39",
+                        "endOffsets": "93,135,181,225,272,319,365,412,463,509,560,609,661,715,758,798"
+                    }
+                }
+            ]
+        }
+    ]
+}

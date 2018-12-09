@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_weight="0.62"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/search"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textColor="#0000FF"
+            android:hint="Search..." >
+
+            <requestFocus />
+        </EditText>
+
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true" >
+        </ListView>
+ 
+                </LinearLayout>
+
+ <ImageButton
+     android:id="@+id/imgb3"
+     android:layout_width="55dp"
+     android:layout_height="55dp"
+     android:layout_alignParentBottom="true"
+     android:layout_toRightOf="@+id/imgb1"
+     android:background="@android:color/transparent"
+     android:src="@drawable/mail" />
+
+ <ImageButton
+     android:id="@+id/imgb1"
+     android:layout_width="55dp"
+     android:layout_height="55dp"
+     android:layout_alignLeft="@+id/linearLayout1"
+     android:layout_alignParentBottom="true"
+     android:layout_marginLeft="98dp"
+     android:background="@android:color/transparent"
+     android:src="@drawable/msg" />
+
+</RelativeLayout>

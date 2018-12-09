@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+      android:background="#FF0000">
+
+    
+    <item
+        android:id="@+id/home"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="HOME"/>
+    
+    <item
+        android:id="@+id/contact"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="ALL STAFF"/>
+      
+      <item
+        android:id="@+id/office"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="OFFICES"/>
+    
+        <item
+        android:id="@+id/department"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="DEPARTMENTS"/>
+      
+     
+       <item
+        android:id="@+id/user"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="MY PROFILE"/>
+     
+</menu>
