@@ -72,10 +72,8 @@ public class DBController  extends SQLiteOpenHelper {
         Log.d("Search Text",searchText);
         ArrayList<HashMap<String, String>> usersList;
         usersList = new ArrayList<HashMap<String, String>>();
-     //   Date date = new Date();
-       // String newDate = new SimpleDateFormat("yyyy-MM-dd").format(date);
-        String selectQuery = "select * from users where userName like '%"+searchText+"%'";
-        //String selectQuery = "select * from Users where username like '%Lab%'";
+        String selectQuery = "select * from users where userName like '%" + searchText + "%'";
+
         SQLiteDatabase database = this.getWritableDatabase();
         Cursor cursor = database.rawQuery(selectQuery, null);
         if (cursor.moveToFirst()) {

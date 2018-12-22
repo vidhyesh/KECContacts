@@ -22,7 +22,7 @@ public class SearchActivity extends Activity {
     // Progress Dialog Object
     ProgressDialog prgDialog;
     HashMap<String, String> queryValues;
-    String searchText = "";
+    String searchText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,7 +32,7 @@ public class SearchActivity extends Activity {
         Button btnSearch = (Button) findViewById(R.id.btnSearch);
         EditText edtSearch = (EditText) findViewById(R.id.edtSearch);
         searchText = edtSearch.getText().toString();
-        Log.d("Search Text", searchText);
+      //  Log.d("Search Text", searchText);
 
 
         btnSearch.setOnClickListener(new View.OnClickListener() {
