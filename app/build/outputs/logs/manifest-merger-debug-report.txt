@@ -1,14 +1,14 @@
 -- Merging decision tree log ---
 manifest
-ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:2:1-111:12
-INJECTED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:2:1-111:12
-INJECTED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:2:1-111:12
-INJECTED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:2:1-111:12
+ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:2:1-113:12
+INJECTED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:2:1-113:12
+INJECTED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:2:1-113:12
+INJECTED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:2:1-113:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\gopio\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\cd00a3fe691bedf8619416c2871ce104\AndroidManifest.xml:2:1-11:12
 MERGED from [com.mcxiaoke.volley:library-aar:1.0.1] C:\Users\gopio\.gradle\caches\transforms-1\files-1.1\library-aar-1.0.1.aar\3739d932b8dacc019d55fbbe954b6422\AndroidManifest.xml:1:70-7:12
-INJECTED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:2:1-111:12
-INJECTED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:2:1-111:12
-INJECTED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:2:1-111:12
+INJECTED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:2:1-113:12
+INJECTED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:2:1-113:12
+INJECTED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:2:1-113:12
 	package
 		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:4:5-38
 		INJECTED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml
@@ -44,7 +44,7 @@ ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidMan
 	android:name
 		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:12:22-64
 application
-ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:14:5-109:19
+ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:14:5-111:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\gopio\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\cd00a3fe691bedf8619416c2871ce104\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\gopio\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\cd00a3fe691bedf8619416c2871ce104\AndroidManifest.xml:9:5-20
 MERGED from [com.mcxiaoke.volley:library-aar:1.0.1] C:\Users\gopio\.gradle\caches\transforms-1\files-1.1\library-aar-1.0.1.aar\3739d932b8dacc019d55fbbe954b6422\AndroidManifest.xml:5:5-19
@@ -100,7 +100,7 @@ ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidMan
 	android:name
 		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:38:13-65
 activity#com.example.keccontacts.Loadd
-ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:41:9-44:61
+ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:41:9-44:52
 	android:screenOrientation
 		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:44:13-49
 	android:label
@@ -242,9 +242,17 @@ ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidMan
 	android:name
 		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:107:19-62
 activity#login.calender.activity.SelectionActivity
-ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:108:9-87
+ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:108:9-78
 	android:name
 		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:108:19-75
+activity#kec.calender.MultiSelect
+ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:109:9-61
+	android:name
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:109:19-58
+activity#kec.calender.search
+ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:110:9-65
+	android:name
+		ADDED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml:110:19-53
 uses-sdk
 INJECTED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from A:\newfinal\kecwitherror07112018\KECContacts1\app\src\main\AndroidManifest.xml

@@ -2,43 +2,43 @@
 <instant-run
     abi="x86"
     api-level="23"
-    build-mode="HOT_WARM"
+    build-mode="COLD"
     density="420dpi"
     format="10"
     plugin-version="3.2.1"
-    timestamp="1544513934527"
+    timestamp="1545848527924"
     token="-7592417688343626879"
-    verifier="COMPATIBLE" >
+    verifier="FIELD_ADDED" >
 
     <task
         name="javac"
-        duration="2197" />
+        duration="1064" />
     <task
         name="instant-run-dex"
-        duration="82" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="130" />
+        duration="59" />
     <task
         name="verifier"
-        duration="16" />
+        duration="7" />
 
     <artifact
-        location="A:\newfinal\kecwitherror07112018\KECContacts1\app\build\intermediates\reload-dex\debug\classes.dex"
-        type="RELOAD_DEX" />
+        location="A:\newfinal\kecwitherror07112018\KECContacts1\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="A:\newfinal\kecwitherror07112018\KECContacts1\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1544513299845"
+        timestamp="1545843864740"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="A:\newfinal\kecwitherror07112018\KECContacts1\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            location="A:\newfinal\kecwitherror07112018\KECContacts1\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="A:\newfinal\kecwitherror07112018\KECContacts1\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
-            type="SPLIT_MAIN" />
-        <artifact
-            location="A:\newfinal\kecwitherror07112018\KECContacts1\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="A:\newfinal\kecwitherror07112018\KECContacts1\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
             location="A:\newfinal\kecwitherror07112018\KECContacts1\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
@@ -62,67 +62,25 @@
             location="A:\newfinal\kecwitherror07112018\KECContacts1\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
+            location="A:\newfinal\kecwitherror07112018\KECContacts1\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
             location="A:\newfinal\kecwitherror07112018\KECContacts1\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="A:\newfinal\kecwitherror07112018\KECContacts1\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="A:\newfinal\kecwitherror07112018\KECContacts1\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1545848527924"
+        verifier="FIELD_ADDED" >
+        <artifact
+            location="A:\newfinal\kecwitherror07112018\KECContacts1\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
-    </build>
-    <build
-        build-mode="HOT_WARM"
-        timestamp="1544513395583"
-        verifier="COMPATIBLE" >
         <artifact
-            location="A:\newfinal\kecwitherror07112018\KECContacts1\app\build\intermediates\builds\debug\1544513395583\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        build-mode="HOT_WARM"
-        timestamp="1544513644067"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="A:\newfinal\kecwitherror07112018\KECContacts1\app\build\intermediates\builds\debug\1544513644067\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        build-mode="HOT_WARM"
-        timestamp="1544513698242"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="A:\newfinal\kecwitherror07112018\KECContacts1\app\build\intermediates\builds\debug\1544513698242\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        build-mode="HOT_WARM"
-        timestamp="1544513731132"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="A:\newfinal\kecwitherror07112018\KECContacts1\app\build\intermediates\builds\debug\1544513731132\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        build-mode="HOT_WARM"
-        timestamp="1544513835340"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="A:\newfinal\kecwitherror07112018\KECContacts1\app\build\intermediates\builds\debug\1544513835340\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        build-mode="HOT_WARM"
-        timestamp="1544513880452"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="A:\newfinal\kecwitherror07112018\KECContacts1\app\build\intermediates\builds\debug\1544513880452\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        build-mode="HOT_WARM"
-        timestamp="1544513934527"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="A:\newfinal\kecwitherror07112018\KECContacts1\app\build\intermediates\reload-dex\debug\classes.dex"
-            type="RELOAD_DEX" />
+            location="A:\newfinal\kecwitherror07112018\KECContacts1\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>

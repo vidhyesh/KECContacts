@@ -63,16 +63,13 @@ public class DBController  extends SQLiteOpenHelper {
         database.close();
     }
 
-    /**
-     * Get list of Users from SQLite DB as Array List
-     * @return
-     * @param searchText
-     */
+
     public ArrayList<HashMap<String, String>> getSearchResults(String searchText) {
         Log.d("Search Text",searchText);
         ArrayList<HashMap<String, String>> usersList;
         usersList = new ArrayList<HashMap<String, String>>();
-        String selectQuery = "select * from users where userName like '%" + searchText + "%'";
+        String selectQuery = "Select * from users where userName like " + "'%" + searchText + "%'";
+        //String selectQuery = "select * from users where userName like '%" + searchText + "%'";
 
         SQLiteDatabase database = this.getWritableDatabase();
         Cursor cursor = database.rawQuery(selectQuery, null);

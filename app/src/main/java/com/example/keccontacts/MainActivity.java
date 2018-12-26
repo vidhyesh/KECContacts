@@ -1,27 +1,25 @@
 package com.example.keccontacts;
- 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Locale;
 
-import android.os.Bundle;
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Intent;
 import android.database.Cursor;
+import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.util.SparseBooleanArray;
 import android.view.ActionMode;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.AbsListView.MultiChoiceModeListener;
 import android.widget.EditText;
 import android.widget.ListView;
-import android.widget.Toast;
-import android.widget.AbsListView.MultiChoiceModeListener;
- 
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Locale;
+
 @SuppressLint("NewApi")
 public class MainActivity extends Activity {
  
@@ -51,7 +49,6 @@ public class MainActivity extends Activity {
  
 		// Locate the ListView in listview_main.xml
 		list = (ListView) findViewById(R.id.listview);
- 
 	
 		Database db = new Database(this);
 		c = db.getstaffs();

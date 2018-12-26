@@ -1,15 +1,10 @@
 package com.example.keccontacts;
 
 
-
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Locale;
-
-import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
 import android.database.Cursor;
+import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.Menu;
@@ -17,7 +12,10 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ListView;
-import android.widget.Toast;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Locale;
 
 public class Office extends Activity {
 
@@ -38,10 +36,9 @@ public class Office extends Activity {
 		setContentView(R.layout.activity_office);
 		
 		fa=this;
-		
-		//				StaffClass wp = new StaffClass(ssid,sname,sdept,stype,smob,smail,7);
+        //	StaffClass wp = new StaffClass(ssid,sname,sdept,stype,smob,smail,7);
 
-	//			arraylist.add(wp);
+        //	arraylist.add(wp);
 		list = (ListView) findViewById(R.id.listview);
 		soff = new String[] { "Principal(Office)", "Principal(Res.)", "Dean CDSA", "Controller of Examination", "Registrar", "College Fax 1", "College Fax 2", "Dheeran Hostel", "Valluvar Hostel", "Bharathi Hostel 1","Bharathi Hostel 2", "Kamban Hostel", "Ilango Hostel 1", "Ilango Hostel 2", "Kaveri Hostel 1", "Kaveri Hostel 2", "Bhavani Hostel 1", "Bhavani Hostel 2", "Vaigai Hostel 1","Vaigai Hostel 2", "Amaravathy Hostel 1","Amaravathy Hostel 2", "Guest House", "Alumni Guest House", "Dispensary", "IGNOU Study Centre", "Kongu FM Station 1","Kongu FM Station 2", "KVB 1","KVB 2", "Post Office", "Security Office"};
 		sphone = new String[] {"220583", "220630", "226513", "226645", "226515", "220087", "226516", "226654", "226661", "226664","226665", "226656", "226658", "226659", "2220764", "2226731", "2226733", "2226734", "2226744","2226750", "2226598","226599", "223666", "226745", "226760", "225252", "226678","226679", "220612","226761","226762", "226759"};

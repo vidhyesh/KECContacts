@@ -10,6 +10,7 @@ import android.widget.EditText;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
+import android.widget.Toast;
 
 import com.example.keccontacts.R;
 
@@ -30,18 +31,18 @@ public class SearchActivity extends Activity {
         setContentView(R.layout.activity_csearch);
 
         Button btnSearch = (Button) findViewById(R.id.btnSearch);
-        EditText edtSearch = (EditText) findViewById(R.id.edtSearch);
-        searchText = edtSearch.getText().toString();
-      //  Log.d("Search Text", searchText);
-
+        final EditText edtSearch = (EditText) findViewById(R.id.edtSearch);
 
         btnSearch.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
+                searchText = edtSearch.getText().toString();
+                Toast.makeText(getApplicationContext(), searchText, Toast.LENGTH_LONG).show();
                 Log.d("Inside", "Inside Onclick Listner"+searchText);
                 ArrayList<HashMap<String, String>> userList = controller.getSearchResults(searchText);
-                Log.d("User List" + searchText, userList.toString());
                 // If users exists in SQLite DB
+
                 if (userList.size() != 0) {
                     // Set the User Array list in ListView
                     ListAdapter adapter = new SimpleAdapter(SearchActivity.this, userList, R.layout.view_user_entry, new String[]{

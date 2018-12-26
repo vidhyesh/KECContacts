@@ -1,12 +1,9 @@
 package com.example.keccontacts;
 
-import java.util.ArrayList;
-import java.util.Locale;
-
-import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
 import android.database.Cursor;
+import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.Menu;
@@ -14,11 +11,12 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.EditText;
 import android.widget.ListView;
-import android.widget.Toast;
+
+import java.util.ArrayList;
+import java.util.Locale;
 
 public class Department extends Activity {
 
-	
 	String[] dept;
 	ListView list;
 	EditText editsearch;
@@ -120,7 +118,6 @@ public class Department extends Activity {
 			startActivity(ii);
 
 			return true;
-
 
         default:
             return super.onOptionsItemSelected(item);

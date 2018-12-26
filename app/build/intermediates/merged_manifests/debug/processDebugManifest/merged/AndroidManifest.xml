@@ -111,6 +111,8 @@
         <activity android:name="edit.calender.ShowSingleRecordActivity" />
         <activity android:name="edit.calender.UpdateActivity" />
         <activity android:name="login.calender.activity.SelectionActivity" />
+        <activity android:name="kec.calender.MultiSelect" />
+        <activity android:name="kec.calender.search" />
     </application>
 
 </manifest>
